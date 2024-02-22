@@ -1,3 +1,5 @@
+import { scrollToSection } from "@/utils/scroll";
+import useGotoSection from "@/utils/useGoToSection";
 import {
   Box,
   Button,
@@ -10,9 +12,11 @@ import {
 import React from "react";
 
 const HeroCaca = () => {
+  const [explore] = useGotoSection("about");
+
   return (
     <Flex
-    id="home"
+      id="home"
       px={{ base: 10, md: "10%" }}
       pb={{ base: "50px", md: 0 }}
       pt={{ base: "100px", md: 0 }}
@@ -43,7 +47,13 @@ const HeroCaca = () => {
           </Text>
         </Stack>
         <Box>
-          <Button colorScheme={"blue"} bgColor={"blue.900"}>
+          <Button
+            onClick={() => {
+              scrollToSection(explore);
+            }}
+            colorScheme={"blue"}
+            bgColor={"blue.900"}
+          >
             See About Me
           </Button>
         </Box>
