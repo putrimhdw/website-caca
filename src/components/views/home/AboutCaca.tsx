@@ -23,7 +23,7 @@ const AboutCaca = () => {
           A, a student majoring in Informatics at Udayana University, is deeply
           interested in UI/UX Design, particularly utilizing Figma as her
           primary tool. Additionally, she is enthusiastic about exploring
-          Frontend Development, aiming to enhance her skills in JavaScript for
+          Frontend Development, aiming to enhance her skills in for
           web development projects.
         </Text>
       </Stack>
