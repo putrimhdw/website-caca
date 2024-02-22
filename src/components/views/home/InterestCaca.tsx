@@ -32,29 +32,30 @@ const InterestCaca = () => {
               <Stack justify={"center"}>
                 <Heading>UI/UX</Heading>
                 <Text>
-                  Being the savages bowsman, that is, the person who pulled the
-                  bow-oar in his boat, Being the savages bowsman, that is, the
-                  person who pulled
+                  I{"'"}m captivated by UI/UX Design. Crafting intuitive
+                  interfaces with tools like Figma fuels my passion. I strive to
+                  blend aesthetics and functionality to create user-centric
+                  products.
                 </Text>
               </Stack>
             </Box>
             <Box height={"300px"} width={"300px"} bgColor={"white"} p={"50px"}>
               <Stack justify={"center"}>
-                <Heading>UI/UX</Heading>
+                <Heading>Frontend</Heading>
                 <Text>
-                  Being the savages bowsman, that is, the person who pulled the
-                  bow-oar in his boat, Being the savages bowsman, that is, the
-                  person who pulled
+                  I{"'"}m passionate about Frontend Development, aiming to craft
+                  engaging web experiences by merging design and functionality
+                  for exceptional results.
                 </Text>
               </Stack>
             </Box>
             <Box height={"300px"} width={"300px"} bgColor={"white"} p={"50px"}>
               <Stack justify={"center"}>
-                <Heading>UI/UX</Heading>
+                <Heading>Mobile</Heading>
                 <Text>
-                  Being the savages bowsman, that is, the person who pulled the
-                  bow-oar in his boat, Being the savages bowsman, that is, the
-                  person who pulled
+                  I{"'"}m passionate about mobile development to create
+                  accessible and valuable solutions for users, focusing on user
+                  experience and innovation.
                 </Text>
               </Stack>
             </Box>
